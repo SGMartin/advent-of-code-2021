@@ -26,6 +26,8 @@
 * Day 5 (December 5, 2021): [Hydrothermal venture](https://adventofcode.com/2021/day/5) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day5).
 * Day 6 (December 6, 2021): [Lanternfish](https://adventofcode.com/2021/day/6) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day6).
 * Day 7 (December 7, 2021): [The Treachery of Whales](https://adventofcode.com/2021/day/7) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day7).
-* Day 8 (December 8, 2021): [Seven Segment Search](https://adventofcode.com/2021/day/7) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day8).
+* Day 8 (December 8, 2021): [Seven Segment Search](https://adventofcode.com/2021/day/8) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day8).
+* Day 9 (December 9, 2021): [Smoke Basin](https://adventofcode.com/2021/day/9) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day9).
+
 
 _Answers by SGMartin._
