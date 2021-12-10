@@ -3,7 +3,8 @@ from collections import Counter
 
 def get_support_system(lf_system: str) -> str:
 
-    bit_rows = open("diagnostics.txt", "r").readlines()
+    with open("diagnostics.txt", "r") as raw_diagnostics:
+        bit_rows = raw_diagnostics.readlines()
 
     if lf_system == "oxygen":
         lf_system = 1

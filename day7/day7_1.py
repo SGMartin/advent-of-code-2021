@@ -4,7 +4,7 @@
 
 import numpy as np
 
-with(open("crabs.txt", "r") as lines):
+with open("crabs.txt", "r") as lines:
     crabs = [int(crab) for crab in lines.read().strip().split(",")]
 
 crabs = np.array(crabs)

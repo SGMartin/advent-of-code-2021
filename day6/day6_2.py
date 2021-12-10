@@ -1,4 +1,4 @@
-with(open("fishes.txt", "r") as lines):
+with open("fishes.txt", "r") as lines:
     raw_fishes = [int(fish) for fish in lines.read().strip().split(",")]
 
 # There are 9 possible clock states 0-8.
@@ -10,7 +10,7 @@ days = 256
 
 for day in range(0, days):
 
-   # Shift everything to the left
+    # Shift everything to the left
     spawning = clock_states.pop(0)
     clock_states.append(spawning)
 

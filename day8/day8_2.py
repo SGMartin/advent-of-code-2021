@@ -1,6 +1,6 @@
-with(open("segments.txt", "r") as raw_signals):
-   lines = raw_signals.readlines()
-   inputs, outputs = map(list, zip(*(line.strip().split(" | ") for line in lines)))
+with open("segments.txt", "r") as raw_signals:
+    lines = raw_signals.readlines()
+    inputs, outputs = map(list, zip(*(line.strip().split(" | ") for line in lines)))
 
 decoded_values = []
 
@@ -21,24 +21,24 @@ for id, signal in enumerate(inputs):
 
     # Find the ids for digits 1,4,7,8
     # each contains 2, 4, 3, 7 segments each.
-    unique_digits = [digit for digit in segments if len(digit) in [2,3,4,7]]
+    unique_digits = [digit for digit in segments if len(digit) in [2, 3, 4, 7]]
 
     # Sort them by len
     # Now the first one is 1, the second is 7, the third is 4 and the last one is 8
-    unique_digits = sorted(unique_digits, key = len)
+    unique_digits = sorted(unique_digits, key=len)
 
     # Sort segments DESCENDING
-    segments.sort(key = len, reverse = True)
+    segments.sort(key=len, reverse=True)
 
     # Store keys to decode 1,7,4,8
-    for idx in [1,7,4,8]:
+    for idx in [1, 7, 4, 8]:
         key_signals[idx] = unique_digits[0]
 
         # Update both unique digits and the segment list
         segments.pop(segments.index(unique_digits[0]))
         unique_digits.pop(0)
 
-    six_len_segments  = segments[:3]
+    six_len_segments = segments[:3]
     five_len_segments = segments[3:6]
 
     # Only three numbers pos: 0, 6, 9
@@ -68,7 +68,7 @@ for id, signal in enumerate(inputs):
         key_signals[key] = "".join(sorted(value))
 
     ## Now decode the output and store it
-    secret_numbers = outputs[id] # input output ids are matched
+    secret_numbers = outputs[id]  # input output ids are matched
     secret_numbers = ["".join(sorted(num)) for num in secret_numbers.split(" ")]
 
     translated_num = ""
@@ -83,6 +83,3 @@ for id, signal in enumerate(inputs):
 
 
 print(f"The sum of all numbers is {sum(decoded_values)}")
-
-
-

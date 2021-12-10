@@ -1,7 +1,7 @@
 import itertools
 
 
-with(open("segments.txt", "r") as raw_signals):
+with open("segments.txt", "r") as raw_signals:
    lines = raw_signals.readlines()
    inputs, outputs = map(list, zip(*(line.strip().split(" | ") for line in lines)))
 

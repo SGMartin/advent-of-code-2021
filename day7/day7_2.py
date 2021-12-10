@@ -4,7 +4,7 @@
 
 import numpy as np
 
-with(open("crabs.txt", "r") as lines):
+with open("crabs.txt", "r") as lines:
     crabs = [int(crab) for crab in lines.read().strip().split(",")]
 
 crabs = np.array(crabs)
@@ -17,7 +17,7 @@ max_distance = max(crabs) - min(crabs)
 for change in range(min(crabs), max(crabs) + 1):
 
     this_steps = abs(crabs - change)
-    this_fuel = sum([sum(range(1, n+1)) for n in this_steps])
+    this_fuel = sum([sum(range(1, n + 1)) for n in this_steps])
 
     if lowest_fuel == 0:
         lowest_fuel = this_fuel
