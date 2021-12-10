@@ -28,6 +28,7 @@
 * Day 7 (December 7, 2021): [The Treachery of Whales](https://adventofcode.com/2021/day/7) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day7).
 * Day 8 (December 8, 2021): [Seven Segment Search](https://adventofcode.com/2021/day/8) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day8).
 * Day 9 (December 9, 2021): [Smoke Basin](https://adventofcode.com/2021/day/9) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day9).
+* Day 10 (December 10, 2021): [Syntax Scoring](https://adventofcode.com/2021/day/10) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day10).
 
 
 _Answers by SGMartin._
