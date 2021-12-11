@@ -29,6 +29,6 @@
 * Day 8 (December 8, 2021): [Seven Segment Search](https://adventofcode.com/2021/day/8) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day8).
 * Day 9 (December 9, 2021): [Smoke Basin](https://adventofcode.com/2021/day/9) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day9).
 * Day 10 (December 10, 2021): [Syntax Scoring](https://adventofcode.com/2021/day/10) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day10).
-
+* Day 11 (December 11, 2021): [Dumbo Octopus](https://adventofcode.com/2021/day/11) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day11).
 
 _Answers by SGMartin._
