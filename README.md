@@ -31,5 +31,6 @@
 * Day 10 (December 10, 2021): [Syntax Scoring](https://adventofcode.com/2021/day/10) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day10).
 * Day 11 (December 11, 2021): [Dumbo Octopus](https://adventofcode.com/2021/day/11) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day11).
 * Day 12 (December 12, 2021): [Passage Pathing](https://adventofcode.com/2021/day/12) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day12).
+* Day 13 (December 13, 2021): [Transparent Origami](https://adventofcode.com/2021/day/13) - [Solution](https://gitlab.com/SGMartin/advent-of-code-2021/-/tree/main/day13).
 
 _Answers by SGMartin._
